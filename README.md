@@ -1,7 +1,7 @@
 # Dorknozzle
 An intranet application for a fictional company called Dorknozzle written with C# and ASP.NET
 
-## homepage
+### homepage
 Includes news about the Dorknozzle company.
 
 ## help desk
