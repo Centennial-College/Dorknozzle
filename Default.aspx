@@ -1,16 +1,13 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
+﻿<%@ Page Title="Welcome to Dorknozzle!" Language="C#" MasterPageFile="~/Dorknozzle.master" 
+    AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
 
-<!DOCTYPE html>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+</asp:Content>
+<asp:Content ID="Content2" 
+    ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+    <h1>Company News</h1>
+    <p>We'll add some news later.</p>
+    <h1>Company Events</h1>
+    <p>We'll add company events later.</p>
+</asp:Content>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
-    <div>
-        <asp:Label ID="myLabel" runat="server" />
-    </div>
-    </form>
-</body>
-</html>
