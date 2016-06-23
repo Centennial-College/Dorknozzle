@@ -38,3 +38,7 @@ a:hover {
     position: absolute;
     width: 600px;
 }
+
+.Validator {
+    color: red;
+}

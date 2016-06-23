@@ -13,17 +13,20 @@
         <asp:RequiredFieldValidator ID="stationNumReq" runat="server"
             ControlToValidate="stationTextBox"
             ErrorMessage="<br /> You must enter a station number!"
-            Display="Dynamic" SetFocusOnError="true" />
+            Display="Dynamic" SetFocusOnError="true"
+            CssClass="Validator" />
         <asp:CompareValidator ID="stationNumCheck" runat="server"
             ControlToValidate="stationTextBox"
             Operator="DataTypeCheck" Type="Integer"
             ErrorMessage="<br /> The value must be a number!"
-            Display="Dynamic" SetFocusOnError="true" />
+            Display="Dynamic" SetFocusOnError="true"
+            CssClass="Validator" />
         <asp:RangeValidator ID="stationNumRangeCheck" runat="server"
             ControlToValidate="stationTextBox"
             MinimumValue="1" MaximumValue="50" Type="Integer"
             ErrorMessage="<br />Number must be between 1 and 50."
-            Display="Dynamic" SetFocusOnError="true" />
+            Display="Dynamic" SetFocusOnError="true"
+            CssClass="Validator" />
     </p>
     <p>
         Problem Category:<br />
@@ -43,11 +46,12 @@
         <asp:RequiredFieldValidator ID="descriptionReq" runat="server"
             ControlToValidate="descriptionTextBox"
             ErrorMessage="<br />You must enter a description!"
-            Display="Dynamic" SetFocusOnError="true" />
+            Display="Dynamic" SetFocusOnError="true"
+            CssClass="Validator" />
     </p>
     <p>
         <asp:Button ID="submitButton" runat="server"
-            CssClass="button" Text="Submit Request" 
+            CssClass="button" Text="Submit Request"
             OnClick="submitButton_Click" />
     </p>
 </asp:Content>
