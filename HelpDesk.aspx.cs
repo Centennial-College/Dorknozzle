@@ -11,4 +11,12 @@ public partial class HelpDesk : System.Web.UI.Page
     {
 
     }
+
+    protected void submitButton_Click(object sender, EventArgs e)
+    {
+        if (Page.IsValid)
+        {
+            // Code that uses the data entered by the user
+        }
+    }
 }
